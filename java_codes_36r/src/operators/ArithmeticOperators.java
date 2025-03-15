@@ -1,20 +1,25 @@
 package operators;
 
 public class ArithmeticOperators {
-	
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 5;
 
-        System.out.println("Addition: " + (a + b)); // 15
-        
-        System.out.println("Subtraction: " + (a - b));   // 5
-        
-        System.out.println("Multiplication: " + (a * b)); // 50
-        
-        System.out.println("Division: " + (a / b));      // 2
-        
-        System.out.println("Modulus: " + (a % b));       // 0
-        
-    }
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 5;
+
+		int add = a + b;
+		System.out.println("Addition: " + add); // 15
+
+		int minus = a - b;
+		System.out.println("Subtraction: " + minus); // 5
+
+		int mul = a * b;
+		System.out.println("Multiplication: " + mul); // 50
+
+		int div = a / b;
+		System.out.println("Division: " + div); // 2
+
+		int modulas = a % b;
+		System.out.println("Modulus: " + modulas); // 0
+
+	}
 }
