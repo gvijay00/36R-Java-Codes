@@ -1,6 +1,6 @@
 package conditional_statements;
 
-public class IfElseIf {
+public class IfElseIfElseExample {
     public static void main(String[] args) {
         int marks = 56; 
 
